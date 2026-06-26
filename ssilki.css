@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    max-width: 1905px;
+}
+
+.logo {
+    height: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.logo:hover {
+    height: 80px;
+    transition: 0.5s;
+}
+
+.active {
+    color: black;
+    background-color: white;
+    padding: 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.navheader {
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    background-color: black
+}
+
+.nava {
+    padding: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.nava:hover{
+    color: black;
+    transition: 0.5s;
+    background-color: white;
+}
+
+.active {
+    color: black;
+    background-color: white;
+}
+
+.container {
+    max-width: 1905px;
+}
+
+footer {
+    padding: 10px;
+    background-color: black;
+    font-size: larger;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    padding-left: 70px;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+footer p {
+    color: white;
+    padding-left: 70px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card {
+    height: 500px;
+    width: 1200px;
+    border: 1px solid red;
+}
+
+.model {
+    background-image: url(mellanfac.png);
+    width: 600px;
+    height: 500px;
+}

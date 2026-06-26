@@ -1,0 +1,328 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    max-width: 1905px;
+}
+
+.logo {
+    height: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.logo:hover {
+    height: 80px;
+    transition: 0.5s;
+}
+
+.active {
+    color: black;
+    background-color: white;
+    padding: 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.navheader {
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    background-color: black
+}
+
+.nava {
+    padding: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.nava:hover{
+    color: black;
+    transition: 0.5s;
+    background-color: white;
+}
+
+.active {
+    color: black;
+    background-color: white;
+}
+
+.container {
+    max-width: 1905px;
+}
+
+.models {
+    display: flex;
+    width: 1905px;
+}
+
+.model1 {
+    height: 800px;
+    width: 560px;
+    background-image: url(model1.png);
+}
+
+.model1:hover {
+    background-image: url(model11.png);
+    transition: 0.5s;
+}
+
+.model2 {
+    height: 800px;
+    width: 560px;
+    background-image: url(model2.png);
+}
+
+.model2:hover {
+    background-image: url(model22.png);
+    transition: 0.5s;
+}
+
+.model3 {
+    width: 800px;
+    height: 800px;
+    background-image: url(model3.png);
+}
+
+.model3:hover {
+    background-image: url(model33.png);
+    transition: 0.5s;
+}
+
+.model4 {
+    width: 952px;
+    height: 540px;
+    background-image: url(model4.png);
+}
+
+.models2 {
+    display: flex;
+}
+
+.model4:hover {
+    background-image: url(model44.png);
+    transition: 0.5s;
+}
+
+.model5 {
+    width: 953px;
+    height: 540px;
+    background-image: url(model5.png);
+}
+
+.model5:hover {
+    background-image: url(model55.png);
+    transition: 0.5s;
+}
+
+footer {
+    padding: 10px;
+    background-color: black;
+    font-size: larger;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    padding-left: 70px;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+footer p {
+    color: white;
+    padding-left: 70px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+
+
+.catalogcontainer {
+    height: 1080px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.catalogcontainer ul {
+    list-style-type: none;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 50px;
+}
+
+.catalogheader {
+    font-size: 30px;
+}
+
+.catalogcontainer li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.catalogcontainer li a:hover {
+    color: white;
+    transition: 0.5s;
+    background-color: black;
+}
+
+.catalogtext {
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.4);
+    color: white;
+}
+
+.womanorganaizer {
+    display: block;
+    background: linear-gradient(black, white, black);
+}
+
+.price {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+.price p {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.price p:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+#wtshirts {
+    width: 1905px;
+}
+
+#wpants {
+    width: 1905px;
+}
+
+#wshoes {
+    height: 360px;
+    width: 1905px;
+}
+
+#wblouse {
+    height: 360px;
+    width: 1905px;
+}
+
+#wjacket {
+    height: 360px;
+    width: 1905px;
+}
+
+#wsuit {
+    height: 360px;
+    width: 1905px;
+}
+
+.manorganaizer {
+    display: block;
+    background: linear-gradient(black, white, black);
+}
+
+#mtshirts {
+    width: 1905px;
+}
+
+#mpants {
+    width: 1905px;
+}
+
+#mshoes {
+    height: 360px;
+    width: 1905px;
+}
+
+#mblouse {
+    height: 360px;
+    width: 1905px;
+}
+
+#mjacket {
+    height: 360px;
+    width: 1905px;
+}
+
+#msuit {
+    height: 360px;
+    width: 1905px;
+}
+
+.kidorganaizer {
+    display: block;
+    background: linear-gradient(black, white, black);
+}
+
+#ktshirts {
+    width: 1905px;
+}
+
+#kpants {
+    width: 1905px;
+}
+
+#kshoes {
+    height: 360px;
+    width: 1905px;
+}
+
+#kblouse {
+    height: 360px;
+    width: 1905px;
+}
+
+#kjacket {
+    height: 360px;
+    width: 1905px;
+}
+
+#ksuit {
+    height: 360px;
+    width: 1905px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards img {
+    padding: 20px;
+    height: 400px;
+    border-radius: 50px;
+}
+
+.cards img:hover {
+    height: 450px;
+    transition: 0.5s;
+}
+
+.aboutcontainer {
+    height: 1080px;
+}
+
+.backetcontainer {
+    height: 1080px;
+}
